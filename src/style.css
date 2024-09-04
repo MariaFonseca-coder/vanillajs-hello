@@ -1,1 +1,37 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  /*FALTA VER PORQUE ESTO NO CONECTA*/
+  background-color: rgb(255, 255, 255);
+  color: rgb(49, 49, 49); /*Color del texto general*/
+  font-family: Arial, sans-serif; /*Fuente para texto*/
+  text-align: center; /*Centrar el texto en el body*/
+  margin: 0; /*Quitar márgenes por defecto*/
+  padding: 0; /*Quitar relleno por defecto*/
+  display: flex; /*Flexbox para centrar contenido*/
+  flex-direction: column; /*Colocar elementos en una columna*/
+  align-items: center; /*Centrar elementos horizontalmente*/
+  justify-content: center; /*Centrar elementos verticalmente*/
+  height: 100vh; /*Asegurar que body ocupe toda altura de la ventana*/
+}
+
+.excusa {
+  font-size: 24px; /*Tamaño de fuente para excusa*/
+  margin: 20px; /*Espacio alrededor del texto*/
+  font-family: cursive; /*Fuente cursiva para texto de excusa*/
+}
+
+.boton {
+  padding: 10px 20px; /*Relleno del botón*/
+  font-size: 18px; /*Tamaño de fuente del botón*/
+  background-color: #ffc5f3; /*Color de fondo del botón*/
+  color: rgb(61, 61, 61); /*Color del texto del botón*/
+  border: 2px solid #ff96ce; /*Borde de 2px, color #ff96ce*/
+  border-radius: 20px; /*Bordes redondeados*/
+  cursor: pointer; /*Cambiar cursor al pasar sobre el botón*/
+  font-family: cursive; /*Fuente cursiva para el texto del botón*/
+  text-align: center; /*Asegurarse de que el texto esté centrado dentro del botón*/
+  display: inline-block; /*Permite que el padding y el border se apliquen correctamente*/
+}
+
+.boton:hover {
+  background-color: #ffb6d9; /*Color de fondo al pasar el ratón sobre el botón*/
+}
